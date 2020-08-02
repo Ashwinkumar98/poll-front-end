@@ -1,0 +1,28 @@
+.user_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 30px auto 0 auto;
+    padding: 1rem;
+    width: 70%;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.user_util{
+    display: flex;
+    flex-direction: column;
+}
+
+.checked{
+    color: orange;
+    margin-left:0.5rem; 
+}
+
+.user_list:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
